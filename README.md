@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm MustfaDev</h1>
-<h3 align="center">iOS and Web Developer with a passion for creating seamless, high-performance digital experiences</h3>
+<h3 align="center">apps and games and Web Developer with a passion for creating seamless, high-performance digital experiences</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mustfadev&label=Profile%20views&color=0e75b6&style=flat" alt="mustfadev" /> </p>
 
