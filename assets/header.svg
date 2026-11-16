@@ -1,0 +1,115 @@
+<svg width="860" height="200" viewBox="0 0 860 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#08090d" />
+    </linearGradient>
+
+    <!-- Top Border Highlight -->
+    <linearGradient id="top-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363d" stop-opacity="0.2" />
+      <stop offset="30%" stop-color="#8b949e" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#58a6ff" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Ambient Glow -->
+    <radialGradient id="glow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#1f2937" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle Dot Pattern -->
+    <pattern id="grid-dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363d" fill-opacity="0.35" />
+    </pattern>
+
+    <style>
+      .mono-chip {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+        font-size: 11px;
+        letter-spacing: 1.2px;
+        font-weight: 600;
+        fill: #8b949e;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        fill: #f0f6fc;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+        font-size: 14.5px;
+        font-weight: 500;
+        fill: #c9d1d9;
+      }
+      .desc-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        fill: #8b949e;
+      }
+      .pill-text {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 10.5px;
+        font-weight: 500;
+        fill: #c9d1d9;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Card Surface -->
+  <rect x="1" y="1" width="858" height="198" rx="8" fill="url(#bg-grad)" stroke="#21262d" stroke-width="1" />
+  
+  <!-- Subtle Ambient Glow -->
+  <rect x="1" y="1" width="858" height="198" rx="8" fill="url(#glow)" />
+
+  <!-- Background Grid Pattern -->
+  <rect x="1" y="1" width="858" height="198" rx="8" fill="url(#grid-dots)" />
+
+  <!-- Top Edge Accent Line -->
+  <path d="M 8 1 L 852 1" stroke="url(#top-border)" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Status / Domain Chip -->
+  <g transform="translate(36, 32)">
+    <rect width="250" height="24" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <circle cx="12" cy="12" r="3.5" fill="#3fb950" />
+    <text x="24" y="15.5" class="mono-chip">APP • GAME • WEB DEVELOPER</text>
+  </g>
+
+  <!-- Name & Heading -->
+  <text x="36" y="94" class="title-text">MustfaDev</text>
+
+  <!-- Subtitle -->
+  <text x="36" y="124" class="subtitle-text">Software Engineer &amp; Systems Developer</text>
+
+  <!-- Narrative / Mission -->
+  <text x="36" y="152" class="desc-text">Engineering performant applications, interactive games, and robust web architectures.</text>
+
+  <!-- Right-side Tech Stack Pills -->
+  <g transform="translate(620, 48)">
+    <!-- Pill 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="195" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="14" cy="14" r="3" fill="#58a6ff" />
+      <text x="26" y="17.5" class="pill-text">Objective-C &amp; Systems</text>
+    </g>
+    <!-- Pill 2 -->
+    <g transform="translate(0, 36)">
+      <rect width="195" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="14" cy="14" r="3" fill="#a371f7" />
+      <text x="26" y="17.5" class="pill-text">Unity &amp; Game Engines</text>
+    </g>
+    <!-- Pill 3 -->
+    <g transform="translate(0, 72)">
+      <rect width="195" height="28" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="14" cy="14" r="3" fill="#3fb950" />
+      <text x="26" y="17.5" class="pill-text">Modern Web &amp; Mobile</text>
+    </g>
+  </g>
+</svg>
+
