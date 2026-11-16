@@ -95,9 +95,7 @@
 ### GitHub Trophies
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=mustfadev&theme=darkhub&no-frame=true&no-bg=true&column=6&margin-w=10" alt="MustfaDev GitHub Trophies" />
-  </a>
+  <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=mustfadev&theme=darkhub&no-frame=true&no-bg=true&column=6" alt="GitHub Trophies" />
 </p>
 
 ---
